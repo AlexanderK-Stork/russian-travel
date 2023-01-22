@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.page {
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--white);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 1297px) and (max-width: 1640px) {
+  .page {
+    padding: 0 148px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1290px) {
+  .page {
+    padding: 0 48px;
+  }
+}
+
+/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .page {
+    padding: 0 48px;
+  }
+}
+
+/*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
+@media (min-width: 425px) and (max-width: 768px) {
+  .page {
+    padding: 0 24px;
+  }
+}
+
+/*до 425 пикселей — мобильные устройства.*/
+@media (max-width: 425px) {
+  .page {
+    padding: 0 16px;
+  }
+}

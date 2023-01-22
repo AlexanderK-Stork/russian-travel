@@ -1,0 +1,27 @@
+.places__website {
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 48px;
+}
+.places__website > a {
+  text-decoration: underline;
+  color: var(--white);
+  transition: opacity ease-in-out 0.25s;
+}
+
+.places__website > a:hover {
+  opacity: 0.6;
+}
+
+.places__website > span {
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+@media (max-width: 321px) {
+  .places__website {
+    padding-bottom: 32px;
+  }
+}

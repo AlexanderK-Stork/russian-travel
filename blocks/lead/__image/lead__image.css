@@ -1,0 +1,30 @@
+.lead__image {
+  margin: 0;
+  padding-top: 64px;
+  align-self: center;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1280px) {
+  .lead__image {
+    max-width: 984px;
+  }
+}
+@media (max-width: 1024px) {
+  .lead__image {
+    max-width: 928px;
+  }
+}
+@media (min-width: 766px) and (max-width: 1024px) {
+  .lead__image {
+    padding-top: 56px;
+  }
+}
+
+@media (max-width: 766px) {
+  .lead__image {
+    padding-top: 64px;
+    width: calc(100vw + 1px);
+  }
+}
