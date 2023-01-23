@@ -1,11 +1,9 @@
 /*-normalize-*/
 @import url("../vendor/normalize.css");
 /*-Шрифы-*/
-@import url("/vendor/fonts/Inter/inter.css");
+@import url("../vendor/fonts/Inter/inter.css");
 /*-Цвета-*/
 @import url("../vendor/variables.css");
-/*-Цвета-*/
-@import url("../pages/index.css");
 /*-страница main-*/
 @import url("../blocks/page/page.css");
 /*-Header-*/
