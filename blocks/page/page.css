@@ -17,15 +17,9 @@ body {
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   font-family: "Inter", "Arial", sans-serif;
-  min-height: 100vh;
   max-width: 1280px;
 }
 
-@media screen and (min-width: 1297px) and (max-width: 1640px) {
-  .page {
-    padding: 0 148px;
-  }
-}
 
 @media (min-width: 1024px) and (max-width: 1290px) {
   .page {
