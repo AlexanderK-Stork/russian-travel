@@ -1,6 +1,7 @@
 .intro {
   font-family: "Inter", "Arial", sans-serif;
   width: 100%;
+  padding-top: 92px;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -11,31 +12,16 @@
 /*от 1024 и до 1280 — для небольших ноутбуков*/
 @media (min-width: 1024px) and (max-width: 1285px) {
   .intro {
-    padding-top: 92px;
     padding-left: 100px;
     padding-right: 100px;
   }
 }
-@media (max-width: 769px) {
-  .intro {
-    width: 100%;
-  }
-}
-
-/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  .intro {
-    padding-top: 92px;
-  }
-}
-
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 769px) {
   .intro {
     padding-top: 88px;
   }
 }
-
 /*до 425 пикселей — мобильные устройства.*/
 @media (max-width: 425px) {
   .intro {

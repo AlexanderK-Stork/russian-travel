@@ -1,7 +1,6 @@
 .lead__image {
   margin: 0;
   padding-top: 64px;
-  align-self: center;
   width: 100%;
   object-fit: cover;
 }
@@ -25,6 +24,7 @@
 @media (max-width: 766px) {
   .lead__image {
     padding-top: 64px;
-    width: calc(100vw + 1px);
+    width: calc(100vw + 10px);
+    transform: translate(-20px);
   }
 }
