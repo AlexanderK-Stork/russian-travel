@@ -1,7 +1,9 @@
 .intro {
   font-family: "Inter", "Arial", sans-serif;
+  width: 100%;
   max-width: 690px;
   margin: 0;
+  padding-top: 92px;
   display: flex;
   flex-direction: column;
   justify-items: start;
@@ -9,44 +11,15 @@
 }
 @media (max-width: 769px) {
   .intro {
-    width: 100%;
+    max-width: 720px;
   }
 }
-/*пикселей — от стандартных ноутбуков и до бесконечности*/
-@media (min-width: 1280px) {
-  .intro {
-    padding-top: 92px;
-  }
-}
-
-/*от 1024 и до 1280 — для небольших ноутбуков*/
-@media (min-width: 1024px) and (max-width: 1280px) {
-  .intro {
-    padding-top: 92px;
-  }
-}
-/*от 1024 и до 1280 — для небольших ноутбуков*/
-@media (min-width: 1024px) and (max-width: 1285px) {
-  .intro {
-    padding-left: 48px;
-    padding-right: 48px;
-  }
-}
-
-/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  .intro {
-    padding-top: 92px;
-  }
-}
-
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 425px) {
   .intro {
     padding-top: 88px;
   }
 }
-
 /*до 425 пикселей — мобильные устройства.*/
 @media (max-width: 425px) {
   .intro {

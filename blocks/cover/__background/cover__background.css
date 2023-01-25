@@ -14,22 +14,4 @@
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 30%;
-  transform: translate(0px, 0px);
-}
-
-@media (max-width: 1278px) {
-  .cover__background {
-    width: 100vw;
-    transform: translate(-48px, 0px);
-  }
-}
-@media (max-width: 770px) {
-  .cover__background {
-    transform: translate(-28px, 0px);
-  }
-}
-@media (max-width: 425px) {
-  .cover__background {
-    transform: translate(-18px, 0px);
-  }
 }

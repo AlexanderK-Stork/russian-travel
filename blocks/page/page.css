@@ -1,11 +1,12 @@
-body {
-  margin: 0;
+.page {
+  margin: 0 auto;
   padding: 0;
+  box-sizing: border-box;
   background-color: var(--bg);
   color: var(--white);
-  overflow-x: hidden;
-  font-family: 'Inter'; 
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
+  max-width: 1280px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -13,43 +14,4 @@ body {
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
-.page {
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  font-family: "Inter", "Arial", sans-serif;
-  min-height: 100vh;
-  max-width: 1280px;
-}
-
-@media screen and (min-width: 1297px) and (max-width: 1640px) {
-  .page {
-    padding: 0 148px;
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1290px) {
-  .page {
-    padding: 0 48px;
-  }
-}
-
-/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  .page {
-    padding: 0 48px;
-  }
-}
-
-/*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media (min-width: 425px) and (max-width: 768px) {
-  .page {
-    padding: 0 24px;
-  }
-}
-
-/*до 425 пикселей — мобильные устройства.*/
-@media (max-width: 425px) {
-  .page {
-    padding: 0 16px;
-  }
-}
+*{border: 1px solid red;} 

@@ -1,15 +1,14 @@
 .footer__links {
   display: flex;
-  line-height: 1;
   font-weight: 400;
 }
 
-@media (min-width: 426px) {
+@media (min-width: 726px) {
   .footer__links {
     font-size: 18px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 625px) {
   .footer__links {
     flex-direction: column;
     font-size: 24px;

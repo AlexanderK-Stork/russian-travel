@@ -6,16 +6,24 @@
   object-fit: cover;
 }
 
-@media (max-width: 1280px) {
+@media (min-width: 1025px) {
   .lead__image {
     max-width: 984px;
   }
 }
+
 @media (max-width: 1024px) {
   .lead__image {
     max-width: 928px;
   }
 }
+
+@media (max-width: 928px) {
+  .lead__image {
+    width: 100vw;
+  }
+}
+
 @media (min-width: 766px) and (max-width: 1024px) {
   .lead__image {
     padding-top: 56px;
@@ -25,6 +33,5 @@
 @media (max-width: 766px) {
   .lead__image {
     padding-top: 64px;
-    width: calc(100vw + 1px);
   }
 }
