@@ -1,0 +1,12 @@
+.lead__image-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+    @media (max-width: 766px) {
+        .lead__image-container {
+          width: calc(100vw + 10px);
+          transform: translate(-10px);
+        }
+      }
