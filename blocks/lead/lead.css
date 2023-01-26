@@ -10,34 +10,21 @@
 
 /*Больше 1280px*/
 @media (min-width: 1280px) {
-  .lead__title {
+  .lead {
     padding-top: 10%;
   }
 }
 /*от 1024 и до 1280 — для небольших ноутбуков*/
 @media (min-width: 1024px) and (max-width: 1280px) {
   .lead {
-    padding-top: calc(136px - 52px - 28px);
+    padding-top: 56px;
   }
 }
 
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1023px) {
   .lead {
-    padding-top: calc(126px - 52px - 28px);
+    padding-top: 48px;
   }
 }
 
-/*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media (min-width: 425px) and (max-width: 768px) {
-  .lead {
-    padding-top: calc(126px - 52px - 28px);
-  }
-}
-
-/*до 425 пикселей — мобильные устройства.*/
-@media (max-width: 425px) {
-  .lead {
-    padding-top: calc(106px - 52px - 16px);
-  }
-}
