@@ -9,31 +9,8 @@
   font-size: 96px;
   line-height: 1.2;
 }
-
-/*от 1024 и до 1280 — для небольших ноутбуков*/
-@media (min-width: 1024px) and (max-width: 1284px) {
-  .lead__title {
-    
-  }
-}
-
-/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  .lead__title {
-   
-  }
-}
-
-/*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media (min-width: 320px) and (max-width: 767.8px) {
-  .lead__title {
-    max-width: calc(90% + 20px);
-    font-size: calc(25px + 56 * (100vw / 1280));
-  }
-}
-
 /*до 425 пикселей — мобильные устройства.*/
-@media (max-width: 320px) {
+@media (max-width: 600px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;

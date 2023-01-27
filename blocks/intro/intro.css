@@ -18,6 +18,7 @@
 /*до 425 пикселей — мобильные устройства.*/
 @media (max-width: 425px) {
   .intro {
+    max-width: 288px;
     padding-top: 64px;
   }
 }

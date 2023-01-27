@@ -4,27 +4,13 @@
   border: none;
   box-sizing: border-box;
   width: 100%;
+  max-width: 1184px;
   padding-top: 28px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
 }
-
-/*пикселей — от стандартных ноутбуков и до бесконечности*/
-@media (min-width: 1280px) {
-  .header {
-    max-width: 100%;
-  }
-}
-
-/*от 1024 и до 1280 — для небольших ноутбуков*/
-@media (min-width: 1024px) and (max-width: 1280px) {
-  .header {
-    max-width: 1184px;
-  }
-}
-
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
 @media (min-width: 768px) and (max-width: 1024px) {
   .header {
@@ -33,15 +19,16 @@
 }
 
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media (min-width: 425px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
   .header {
     max-width: 720px;
   }
 }
 
 /*до 425 пикселей — мобильные устройства.*/
-@media (max-width: 425px) {
+@media (max-width: 320px) {
   .header {
-    max-width: 100%;
+    max-width: 288px;
+    padding-top: 16px;
   }
 }
