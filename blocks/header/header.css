@@ -1,8 +1,8 @@
 .header {
+  box-sizing: border-box;
   font-family: "Inter", "Arial", sans-serif;
   margin: 0;
   border: none;
-  box-sizing: border-box;
   width: 100%;
   max-width: 1184px;
   padding-top: 28px;

@@ -2,22 +2,20 @@
   margin: 0 auto;
   padding-bottom: 24px;
   max-width: 1184px;
-  padding-top: 92px;
   font-family: "Inter", "Arial", sans-serif;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 @media (max-width: 1024px) {
   .footer {
     max-width: 928px;
-    padding-top: 92px;
   }
 }
 @media (max-width: 768px) {
   .footer {
-    padding-top: 88px;
     max-width: 720px;
   }
 }
@@ -25,6 +23,5 @@
   .footer {
     flex-direction: column;
     max-width: 288px;
-    padding-top: 88px;
   }
 }

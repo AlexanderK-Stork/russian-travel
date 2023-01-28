@@ -3,27 +3,12 @@
   margin: 0;
   position: relative;
   width: 100%;
+  max-width: 460px ;
   overflow: hidden;
   align-self: flex-start;
   justify-self: center;
-}
-.places__image img {
-  width: 100%;
   object-fit: cover;
   object-position: center;
-}
-/*пикселей — от стандартных ноутбуков и до бесконечности*/
-@media (min-width: 1280px) {
-  .places__image {
-    min-width: none;
-  }
-}
-
-/*от 1024 и до 1280 — для небольших ноутбуков*/
-@media (min-width: 1024px) and (max-width: 1280px) {
-  .places__image {
-    max-width: 460px;
-  }
 }
 
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/

@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 1.2;
+  line-height: 1;
 }
 /*до 425 пикселей — мобильные устройства.*/
 @media (max-width: 600px) {

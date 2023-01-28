@@ -1,30 +1,12 @@
 .places__title {
   margin: 0;
   padding: 0;
+  max-width: 460px;
   font-size: 72px;
-  line-height: 1.2;
+  line-height: 76px;
+  font-weight: 900;
+  letter-spacing: 0.8px;
 }
-/*пикселей — от стандартных ноутбуков и до бесконечности*/
-@media (min-width: 1280px) {
-  .places__title {
-    font-size: 72px;
-  }
-}
-
-/*от 1024 и до 1280 — для небольших ноутбуков*/
-@media (min-width: 1024px) and (max-width: 1280px) {
-  .places__title {
-    font-size: 72px;
-  }
-}
-
-/*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  .places__title {
-    font-size: 72px;
-  }
-}
-
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
 @media (min-width: 425px) and (max-width: 768px) {
   .places__title {

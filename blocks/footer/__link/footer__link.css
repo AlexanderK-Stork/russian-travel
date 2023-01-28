@@ -1,9 +1,15 @@
 .footer__link {
-  padding: 12px 12px 12px 0px;
+  
   text-decoration: none;
   color: inherit;
   transition: opacity ease-in-out 0.25s;
 }
 .footer__link:hover {
   opacity: 0.8;
+}
+@media (min-width: 425px) {
+  .footer__link:not(first-child) {
+    padding-right: 18px;
+  }
+  
 }

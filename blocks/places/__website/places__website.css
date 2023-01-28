@@ -3,21 +3,26 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding-bottom: 48px;
-}
-.places__website > a {
-  text-decoration: underline;
+  margin-bottom: 48px;
+  line-height: 22px;
+  font-size: 18px;
   color: var(--white);
   transition: opacity ease-in-out 0.25s;
+  text-decoration: none;
+  width: fit-content;
+  border-bottom: #aaaaaa 1px solid;
 }
-
-.places__website > a:hover {
+.places__website:hover {
   opacity: 0.6;
 }
-
-.places__website > span {
-  padding-bottom: 12px;
+.places__website::before {
+  font-family: inherit;
+  content: "url";
   text-transform: uppercase;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  padding-bottom: 12px;
   color: #aaaaaa;
 }
 @media (max-width: 321px) {

@@ -1,12 +1,8 @@
 .footer__links {
   display: flex;
   font-weight: 400;
-}
-
-@media (min-width: 726px) {
-  .footer__links {
-    font-size: 18px;
-  }
+  line-height: 18px;
+  font-size: 16px;
 }
 @media (max-width: 625px) {
   .footer__links {

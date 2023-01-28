@@ -6,6 +6,7 @@
   max-width: 360px;
   margin: 32px auto 0;
   color: var(--white);
+  position: relative;
   z-index: 11;
 }
 
