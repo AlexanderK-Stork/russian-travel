@@ -7,14 +7,15 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
-  padding-top: 32px;
+  line-height: 1.2;
+  margin-top: 32px;
 }
 /*до 425 пикселей — мобильные устройства.*/
 @media (max-width: 600px) {
   .lead__subtitle {
     max-width: 288px;
     font-size: 16px;
-    padding-top: 16px;
+    line-height: 1.25;
+    margin-top: 16px;
   }
 }

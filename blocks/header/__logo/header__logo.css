@@ -1,7 +1,5 @@
 .header__logo {
-  position: relative;
-  width: 176px;
-  height: 52px;
+  max-width: 176px;
 }
 
 @media screen and (max-width: 320px) {

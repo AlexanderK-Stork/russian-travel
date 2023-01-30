@@ -1,7 +1,6 @@
 .header__lang-link {
-  padding-top: 18px;
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.16;
   color: var(--white);
   text-decoration: none;
   transition: opacity ease-in-out 0.25s;
@@ -11,9 +10,9 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1;
   }
 }

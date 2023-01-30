@@ -1,10 +1,11 @@
 .places__website {
+  padding: 0;
   grid-area: website;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 48px;
-  line-height: 22px;
+  margin-bottom: 47px;
+  line-height: 1.22;
   font-size: 18px;
   color: var(--white);
   transition: opacity ease-in-out 0.25s;
@@ -20,13 +21,13 @@
   content: "url";
   text-transform: uppercase;
   font-size: 12px;
-  line-height: 12px;
+  line-height: 1;
   letter-spacing: 2px;
-  padding-bottom: 12px;
+  margin-bottom: 8px;
   color: #aaaaaa;
 }
 @media (max-width: 321px) {
   .places__website {
-    padding-bottom: 32px;
+    margin-bottom: 31px;
   }
 }

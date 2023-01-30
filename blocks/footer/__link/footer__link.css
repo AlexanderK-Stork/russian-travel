@@ -1,5 +1,4 @@
 .footer__link {
-  
   text-decoration: none;
   color: inherit;
   transition: opacity ease-in-out 0.25s;
@@ -11,5 +10,9 @@
   .footer__link:not(first-child) {
     padding-right: 18px;
   }
-  
+}
+@media (max-width: 320px) {
+.footer__link {
+  padding-bottom: 32px;
+}
 }

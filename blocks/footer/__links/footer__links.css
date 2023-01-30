@@ -1,7 +1,7 @@
 .footer__links {
   display: flex;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.12;
   font-size: 16px;
 }
 @media (max-width: 625px) {
