@@ -3,20 +3,16 @@
   max-width: 460px;
   grid-area: title;
   align-self: flex-start;
-  padding-bottom: 48px;
-  padding-top: 80px;
+  margin-bottom: 48px;
 }
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media (min-width: 425px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .places__header {
     max-width: 340px;
-    padding-bottom: 32px;
-    padding-top: 73px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 325px) {
   .places__header {
-    padding-bottom: 32px;
-    padding-top: 50px;
+   max-width: 288px;
   }
 }

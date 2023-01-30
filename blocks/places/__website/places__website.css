@@ -23,11 +23,12 @@
   font-size: 12px;
   line-height: 1;
   letter-spacing: 2px;
-  margin-bottom: 8px;
+  padding-bottom: 12px;
   color: #aaaaaa;
 }
-@media (max-width: 321px) {
+@media (max-width: 421px) {
   .places__website {
-    margin-bottom: 31px;
+    margin-bottom: 32px;
+    margin-top: 32px;
   }
 }
