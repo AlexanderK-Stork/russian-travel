@@ -28,6 +28,7 @@
 /*до 425 пикселей — мобильные устройства.*/
 @media (max-width: 620px) {
   .places__place {
+    row-gap: 32px;
     margin-top: 50px;
     grid-template-columns: 100%;
     grid-auto-flow: column;
