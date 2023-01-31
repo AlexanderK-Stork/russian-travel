@@ -1,10 +1,10 @@
 .places__website {
   padding: 0;
+  margin-bottom: -2px;
   grid-area: website;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 47px;
   line-height: 1.22;
   font-size: 18px;
   color: var(--white);
@@ -23,7 +23,7 @@
   font-size: 12px;
   line-height: 1;
   letter-spacing: 2px;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
   color: #aaaaaa;
 }
 @media (max-width: 421px) {

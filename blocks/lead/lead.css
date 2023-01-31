@@ -1,7 +1,6 @@
 .lead {
   font-family: "Inter", "Arial", sans-serif;
-  margin: 0;
-  margin-top: 56px;
+  margin: 56px 148px 0 148px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,7 +9,11 @@
 
 @media (max-width: 1024px) {
   .lead {
-    margin-top: 48px;
+    margin: 48px 48px 0 48px;
   }
 }
-
+@media (max-width: 768px) {
+  .lead {
+    margin: 48px 0 0 0;
+  }
+}

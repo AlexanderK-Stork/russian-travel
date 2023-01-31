@@ -3,7 +3,6 @@
   max-width: 460px;
   grid-area: title;
   align-self: flex-start;
-  margin-bottom: 48px;
 }
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
 @media (max-width: 768px) {

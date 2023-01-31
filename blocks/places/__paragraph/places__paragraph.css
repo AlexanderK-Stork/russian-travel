@@ -6,7 +6,7 @@
   line-height: 1.63;
 }
 .places__paragraph:not(:first-child) {
-  margin-top: 26px;
+  padding-top: 26px;
 }
 @media (max-width: 1024px) {
   .places__paragraph{
@@ -24,7 +24,6 @@
 }
 @media (max-width: 425px) {
   .places__paragraph {
-    margin-top: 32px;
     max-width: 288px;
   }
 }
