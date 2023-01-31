@@ -26,4 +26,7 @@
   .places__paragraph {
     max-width: 288px;
   }
+  .places__paragraph:not(:first-child) {
+    padding-top: 25px;
+  }
 }

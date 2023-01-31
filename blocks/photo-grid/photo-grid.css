@@ -21,14 +21,14 @@
   .photo-grid {
     margin: 88px 24px 0 24px;
     grid-template-columns: repeat(2, 1fr);
-    padding-bottom: 14px;
     gap: 16px;
 }
 }
 @media (max-width: 320px) {
 .photo-grid {
   grid-template-columns: 1fr;
-  margin: 64px 16px 0 16px;
-  gap: 12px;
+  margin: 64px 16px 0px 16px;
+  row-gap: 12px;
+  padding-bottom: 14px;
 }
 }
