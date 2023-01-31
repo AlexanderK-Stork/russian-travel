@@ -1,5 +1,5 @@
 .footer {
-  margin: 0 auto;
+  margin: 0 48px;
   padding-bottom: 24px;
   max-width: 1184px;
   font-family: "Inter", "Arial", sans-serif;
@@ -16,6 +16,7 @@
 }
 @media (max-width: 768px) {
   .footer {
+    margin: 0 24px;
     max-width: 720px;
   }
 }
@@ -23,5 +24,6 @@
   .footer {
     flex-direction: column;
     max-width: 288px;
+    margin: 0 16px;
   }
 }
