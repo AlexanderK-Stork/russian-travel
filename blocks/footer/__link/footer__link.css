@@ -8,7 +8,8 @@
 }
 @media (min-width: 425px) {
   .footer__link:not(first-child) {
-    padding-right: 18px;
+    padding-right: 19px;
+    padding-top: 2px;
   }
 }
 @media (max-width: 320px) {

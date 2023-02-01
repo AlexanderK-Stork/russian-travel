@@ -1,12 +1,8 @@
 .places__image {
   grid-area: image;
   margin: 0;
-  position: relative;
   width: 100%;
   max-width: 460px;
-  overflow: hidden;
-  align-self: flex-start;
-  justify-self: center;
   object-fit: cover;
   object-position: center;
 }

@@ -3,9 +3,9 @@
   padding: 0;
   max-width: 460px;
   font-size: 72px;
-  line-height: 1.05;
+  line-height: 1.055;
   font-weight: 900;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.1px;
 }
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
 @media (min-width: 425px) and (max-width: 768px) {
