@@ -19,6 +19,7 @@
 /*до 425 пикселей — мобильные устройства.*/
 @media (max-width: 425px) {
   .places__title {
+    margin: 0 16px;
     font-size: 32px;
     line-height: 1.09;
     max-width: 288px;

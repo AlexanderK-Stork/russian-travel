@@ -6,11 +6,6 @@
 @import url("../vendor/variables.css");
 /*-страница main-*/
 @import url("../blocks/page/page.css");
-
-/*Container*/
-@import url("../blocks/container/container.css");
-@import url("../blocks/container/_middle/container_middle.css");
-
 /*-Header-*/
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__logo/header__logo.css");
