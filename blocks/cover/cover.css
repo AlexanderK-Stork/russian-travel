@@ -2,7 +2,7 @@
   font-family: "Inter", "Arial", sans-serif;
   margin: 92px auto;
   width: 100%;
-  height: 740px;
+  min-height: 740px;
   max-width: 1184px;
   background: url("../../images/cover-trains.jpg");
   position: relative;
@@ -29,18 +29,18 @@
 @media (max-width: 1024px) {
   .cover {
     max-width: 100%;
-    height: 640px;
+    min-height: 640px;
     margin-top: 90px;
   }
 }
 @media (max-width: 768px) {
   .cover {
-    height: 480px;
+    min-height: 480px;
   }
 }
 @media (max-width: 320px) {
   .cover {
-    height: 200px;
+    min-height: 200px;
     margin-top: 66px;
   }
 }
