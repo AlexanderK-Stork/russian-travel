@@ -9,8 +9,16 @@
   font-size: 96px;
   line-height: 1.04;
 }
+
+@media (max-width: 730px) {
+  .lead__title {
+  max-width: 600px;
+  font-size: 55px;
+  }
+  
+}
 /*до 425 пикселей — мобильные устройства.*/
-@media (max-width: 678px) {
+@media (max-width: 425px) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;
