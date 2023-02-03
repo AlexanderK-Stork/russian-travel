@@ -29,7 +29,7 @@
   }
 }
 /*до 425 пикселей — мобильные устройства.*/
-@media (max-width: 620px) {
+@media (max-width: 630px) {
   .places__place {
     row-gap: 32px;
     margin-top: 50px;
