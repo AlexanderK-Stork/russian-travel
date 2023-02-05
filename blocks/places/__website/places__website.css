@@ -12,10 +12,13 @@
   text-decoration: none;
   width: fit-content;
   border-bottom: #aaaaaa 1px solid;
+  max-height: fit-content;
 }
+
 .places__website:hover {
-  opacity: 0.6;
+  opacity: 0.8;
 }
+
 .places__website::before {
   font-family: inherit;
   content: "url";
@@ -25,9 +28,12 @@
   letter-spacing: 2px;
   margin-bottom: 12px;
   color: #aaaaaa;
+  max-height: fit-content;
+  max-width: fit-content;
 }
+
 @media (max-width: 425px) {
-.places__website {
-  margin: 0 16px;
-} 
+  .places__website {
+    margin: 0 16px;
+  }
 }
