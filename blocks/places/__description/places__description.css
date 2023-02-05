@@ -1,3 +1,8 @@
 .places__description {
   grid-area: description;
 }
+@media (max-width: 680px) {
+  .places__description {
+ justify-self: center;
+  }
+}

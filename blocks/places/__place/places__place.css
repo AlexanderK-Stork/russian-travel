@@ -12,7 +12,7 @@
   row-gap: 48px;
 }
 /*от 768 и до 1024 пикселей — от вертикального до горизонтального положения планшета*/
-@media (max-width: 1024px) {
+@media (max-width: 1100px) {
   .places__place {
     grid-template-columns: 440px 1fr;
     column-gap: 32px;
@@ -20,7 +20,7 @@
 }
 
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   .places__place {
     grid-template-columns: 340px 1fr;
     margin-top: 73px;
@@ -29,7 +29,7 @@
   }
 }
 /*до 425 пикселей — мобильные устройства.*/
-@media (max-width: 630px) {
+@media (max-width: 680px) {
   .places__place {
     row-gap: 32px;
     margin-top: 50px;

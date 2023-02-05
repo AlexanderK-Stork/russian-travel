@@ -19,8 +19,7 @@
   .places__paragraph {
     font-size: 16px;
     max-width: 352px;
-  }
-  
+  } 
 }
 @media (max-width: 425px) {
   .places__paragraph {

@@ -4,6 +4,7 @@
   margin: 28px 48px 0px 48px;
   max-width: 1184px;
   display: flex;
+  gap: 1rem;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
