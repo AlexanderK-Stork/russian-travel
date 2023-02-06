@@ -5,14 +5,8 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  line-height: 1.22;
-  font-size: 18px;
-  color: var(--white);
-  transition: opacity ease-in-out 0.25s;
-  text-decoration: none;
-  width: fit-content;
-  border-bottom: #aaaaaa 1px solid;
-  max-height: fit-content;
+  justify-items: start;
+  align-items: start;
 }
 
 .places__website:hover {
@@ -32,6 +26,11 @@
   max-width: fit-content;
 }
 
+@media (min-width: 321px) and (max-width: 680px) {
+  .places__website {
+ justify-self: center;
+  }
+}
 @media (max-width: 425px) {
   .places__website {
     margin: 0 16px;

@@ -19,6 +19,7 @@
 /*от 425 и до 768 пикселей — от большого смартфона до вертикального положения планшета*/
 @media (min-width: 321px) and (max-width: 768px) {
   .header {
+    margin: 28px 24px 0px 24px;
     max-width: 720px;
   }
 }

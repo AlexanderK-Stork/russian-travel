@@ -16,6 +16,7 @@
 }
 @media (max-width: 768px) {
   .footer {
+    row-gap: 24px;
     margin: 0 24px;
     max-width: 720px;
   }

@@ -1,0 +1,10 @@
+.places__link {
+    line-height: 1.22;
+    font-size: 18px;
+    color: var(--white);
+    transition: opacity ease-in-out 0.25s;
+    text-decoration: none;
+    width: fit-content;
+    border-bottom: #aaaaaa 1px solid;
+    max-height: fit-content;
+}
