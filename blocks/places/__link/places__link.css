@@ -8,3 +8,6 @@
     border-bottom: #aaaaaa 1px solid;
     max-height: fit-content;
 }
+.places__link:hover {
+    opacity: 0.8;
+  }

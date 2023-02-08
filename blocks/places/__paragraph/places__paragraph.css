@@ -25,6 +25,7 @@
   .places__paragraph {
     margin: 0 16px;
     max-width: 288px;
+    line-height: 1.662;
   }
   .places__paragraph:not(:first-child) {
     padding-top: 25px;

@@ -9,10 +9,6 @@
   align-items: start;
 }
 
-.places__website:hover {
-  opacity: 0.8;
-}
-
 .places__website::before {
   font-family: inherit;
   content: "url";

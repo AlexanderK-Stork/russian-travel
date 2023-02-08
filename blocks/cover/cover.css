@@ -41,6 +41,6 @@
 @media (max-width: 320px) {
   .cover {
     min-height: 200px;
-    margin-top: 79px;
+    margin: 66px 0 64px 0;
   }
 }
